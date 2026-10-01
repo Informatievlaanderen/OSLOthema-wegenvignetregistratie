@@ -1,0 +1,30 @@
+{
+  "title": "",
+  "category": "",
+  "usage": "",
+  "status": "",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "",
+  "descriptionFileName": "",
+  "specificationDocuments": [],
+  "documentation": [],
+  "charter": {},
+  "reports": [],
+  "presentations": [],
+  "implementations": [],
+  "relevantStandards": [],
+  "dataExamples": [],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "",
+  "dateOfAcknowledgementBySteeringCommittee": "",
+  "datePublicReviewStart": "",
+  "datePublicReviewEnd": "",
+  "endOfPublicationDate": "",
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend",
+  "functionalScope": ""
+}
