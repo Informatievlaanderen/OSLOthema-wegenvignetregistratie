@@ -3,7 +3,7 @@
     "name": "wegenvignetregistratie",
     "type": "impl",
     "eap": "OSLO-wegenvignetregistratie-IM.eap",
-    "diagram": "wegenvignetregistratie",
+    "diagram": "Wegenvignetregistratie",
     "template": "wegenvignetregistratie-im.j2",
     "title": "Implementatiemodel wegenvignetregistratie",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
