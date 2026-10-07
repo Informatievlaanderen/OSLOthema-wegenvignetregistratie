@@ -1,0 +1,39 @@
+{% extends "voc2.j2" %}
+
+{% block metainfo %}
+<div class="head" role="metainfo" id="metainfo">
+     <dl>
+        <dt>Brondata</dt>
+        <dd>
+           <a href="https://github.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/releases/tag/{{ data.metadata.branchtag }}">https://github.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/releases/tag/{{ data.metadata.branchtag }}</a>
+        </dd>
+        <dt>Changelog</dt>
+        <dd>
+           <a href="{{ data.metadata.documentroot }}/resources/CHANGELOG.md">{{ data.metadata.documentroot }}/resources/CHANGELOG.md</a>
+        </dd>
+        <dt>Opmerkingen en feedback</dt>
+        <dd>
+           <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
+        </dd>
+        <dd>
+           <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
+        </dd>
+        {% if data.metadata.dependencies %}
+           <dt>Afhankelijkheden</dt>
+           <dd>
+              {% for dep in metadata.dependencies %}
+                 <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
+              {% endfor %}
+           </dd>
+        {% endif %}
+     </dl>
+</div>
+{% endblock %}
+
+{% block summary %}
+<p>
+Het MAGDA-wegenvignetregistraties Vocabularium bevat de relevante termen om de data-uitwisseling mogelijk te maken
+van wegenvignetregistraties volgens een REST API op het MAGDA platform. De cruciale klasse hierbij is WegenvignetRegistratieEnvelop
+die zowel wegenvignetregistratiesRegistraties als MAGDA Uitzonderingen aan elkaar koppelt.
+</p>
+{% endblock %}
