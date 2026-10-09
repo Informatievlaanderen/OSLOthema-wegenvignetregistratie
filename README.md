@@ -1,4 +1,4 @@
-# TITEL VAN TRAJECT
+# OSLO Wegenvignetregistratie
 
 <!--TODO: pas de titel aan van de README naar de naam van het traject zoals bijvoorbeeld 'Energiehuis'-->
 
@@ -19,16 +19,16 @@ Configuratie en bestanden voor het publiceren van de specs in de folders config,
 Een [changelog](./CHANGELOG) met wijzigingen tov vorige versies.\
 Diverse resources:
 
-- Een overzicht van de [use cases](./usecases.md)
+<!-- - Een overzicht van de [use cases](./usecases.md)
 - Een overzicht van gebruikte [bronnen](./bronnen.md) (standaarden, implementaties, regelgeving).
 - Het [modelleringsrapport](./resources/Modelleerrapport.pdf).
-- Een map met [datavoorbeelden](./datavoorbeelden).
+- Een map met [datavoorbeelden](./datavoorbeelden). -->
 
 ## Issues
 
 <!--TODO: pas de link aan naar het juiste repository -->
 
-Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-PAS-ME-AAN/issues) kan je opmerkingen en feedback over het model geven.
+Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/issues) kan je opmerkingen en feedback over het model geven.
 
 ## Publicaties
 
@@ -37,11 +37,13 @@ Via de tab [issues](https://github.com/Informatievlaanderen/OSLOthema-PAS-ME-AAN
 
 <!--TODO: Pas de tabel aan met de standaarden die uit dit traject voortvloeien met hun status, uitgiftedatum en de nodige links naar het AP, VOC, of IMP. Indien enkel AP of VOC, laat andere links weg-->
 
-| Naam | Status | Uitgiftedatum | AP       | VOC      | IMP      |
+<!-- | Naam | Status | Uitgiftedatum | AP       | VOC      | IMP      |
 | ---- | ------ | ------------- | -------- | -------- | -------- |
-|      |        |               | [Link]() | [Link]() | [Link]() |
+|      |        |               | [Link]() | [Link]() | [Link]() | -->
 
-## Codelijsten
+<!-- ## Codelijsten
+
+
 
 ### Github actions - generate_codelist.yml
 
@@ -56,4 +58,4 @@ Deze workflow converteert een CSV-codelijst naar een Turtle (.ttl) RDF-bestand. 
    - Verplaatst het gegenereerde bestand naar dezelfde map als uw CSV met de `.ttl`-extensie
    - Voert het gegenereerde bestand automatisch in en pusht het naar de repository
 
-Het gegenereerde Turtle-bestand wordt opgeslagen naast uw CSV-bestand met dezelfde basisnaam maar met een `.ttl`-extensie.
+Het gegenereerde Turtle-bestand wordt opgeslagen naast uw CSV-bestand met dezelfde basisnaam maar met een `.ttl`-extensie. -->
